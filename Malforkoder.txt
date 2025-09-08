@@ -1,0 +1,99 @@
+
+UKE 33 QUIZ
+
+    Hva brukes til å oversette et Java program til Java bytekode 
+    som kan kjøres på Java's Virtuelle Maskin (JVM)?
+        - en kompilator
+
+    Hva brukes til å kjøre et oversatt et Java program på en datamaskin?
+        - et kjøremiljø
+    
+    Hvilken rolle spiller CPU'en i en datamaskin?
+     - Den utfører instruksjonene i programmet 
+    
+    Hva blir minne i en datamaskin brukt til når et program utføres?
+        - Lagrer programmet og data som programme bruker 
+    
+    Hvor mange forskjellige verdier kan vi representere med 4 bit?
+        - 16 bit
+    
+    Hvor starter utførelsen av et Java program?
+        - ved metoden main
+    
+    Hva bestemmer syntaksen i et programmeringsspråk?
+        - Hva som er et lovlig program 
+    
+    Hva bestemmer semantikken i et programmeringsspråk?
+        - Hva programmet gjør når det blir kjørt
+    
+    Hva er et reservert ord i Java?
+        - Ord som har en spesiell betydning
+    
+    Hva brukes ; (semikolon) til i Java?
+        - Til å indikere avslutningen på en setning i programmet
+        
+        
+    
+UKE 35 QUIZ
+    
+    Kva løkke i Java blir utført minst ein gong?
+        - do - while løkke
+    
+    
+    
+    
+    
+
+
+
+
+KAP 2 Notater
+
+    	Variabler gjør det mulig å lagre data i minnet når programmet utføres. 
+    	Brukes typisk til å ta vare på resultater underveis når programmet utføres
+    	-En variabel har et navn
+        -En variabel kan ta vare på en verdi
+        -En variabel har en datatype, sombestemmer hva slags (hvilke mulige) verdier variabelen 
+        kan ta vare på (lagre)
+        
+	    En variabel innføres i programmet via en variabeldeklarasjon. 
+        Variabler kan gis nye verdier underveis i programmet via tilordningssetninger. 
+    
+        Løkke
+        Gjøre en eller flere setninger om igjen
+	    Enten et bestemt antall ganger eller så lenge en betingelse er sann/oppfylt (true)
+	    
+	    
+KAN 3 NOTATER
+
+
+	   ▪ If-valgsetninger – brukes typisk ved to alternative greiner (kan ha en (else) linje/grein som 
+	        kjører en annen setning dersom betingelsen er sann/usann)
+	   ▪ Switch-valgsetninger – flervalg mellom klart adskilte alternativer - switch, case, break, default
+	   
+        
+    <   (Mindre enn)
+    <=  (Mindre eller lik)
+    >=	(Større eller lik)
+    >	(Større enn)
+    ==	(Er lik, må ha to erlikhetstegn)
+    !=	(Ulik)
+    =	(tildelingstegn for å gi noe en verdi)
+    
+    
+    •	Skopet (scope), eller virkeområdet, til en variabel er det området av koden der variabelen er «synlig» og kan brukes.
+    * Java har tre typer løkker
+        -	For- løkker - brukes typisk når vi kjenner antall gjentagelser (iterasjoner)
+        -	While- løkker  brukes typisk når vi ikke kjenner antall gjentagelser
+        -	Do-while- løkker - brukes typisk når vi skal ha minst en gjentagelse
+    
+    
+KAP 4 NOTATER
+
+    En metode er en navnsatt enhet/kodeblokk som inneholder en eller flere setninger!
+    En metode er et «delprogram» som kan brukes til å utføre en avgrenset oppgave!
+        Med metoder unngår vi å duplisere kode og det blir lettere vedlikehold, 
+        lettere gjenbruk og lettere å teste
+
+    Metodedeklarasjon: private, static, void, ()
+    

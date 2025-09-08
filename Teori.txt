@@ -1,0 +1,99 @@
+/*
+**FILNAVN OG KODE FOR Å KJØRE FIL**
+public class "filnavn" {                    -- filnavn (husk { i } slutten av dokumentet)
+public static void main(String[] args) {    -- Kode som gjør filen kjørbar (avsluttets med } i slutten av dokumentet)
+
+
+
+KODE LINJE FOR BRUKER INPUT VIA SCANNER
+import java.util.Scanner;                   -- plasseres over filnavn, øverst i dokument
+Scanner input = new Scanner(System.in);     -- plasseres under public static void main KODE linjen, scanner objektet kan bytte navn, trenger ikke hete input
+String filnavn = input.nextLine();          -- input.next... kan byttes ut med Int, Double osv, registrerer det brukeren skriver inn... scanner "navn" = "navn".nextLine();
+input.close();                              -- plasseres i slutten av dokumentet, over de to nederste }
+
+
+**IMPORT MATH BIBLIOTEK**
+import static java.lang.Math.*;             -- kan gjøre mer avanserte matte utregninger
+Math.PI;                                    -- Pi, 3.1415
+Math.Min;                                   -- minste verdi
+Math.Pow;                                   -- x^n
+
+
+**Skrive ut melding på skjerm**             
+System.out.print("");                       -- skriver ut på samme linje... kan dele linje ved bruk av \n
+System.out.println();                       -- skriver ut på ny linje
+
+
+
+**Gi verdi til et objekt**
+int a = 1;                                  -- integer, heltall
+double b = 2;                               -- double, tar med desimaler
+String navn = "Agnete";                     -- gir strengen "navn" verdien "Agnete"
+double a = Math.PI;                         -- gir a verdien til PI
+
+
+
+**LØKKER**
+
+if (co2 <=500) {                            -- objekt blir gitt en verdi ved: = < > <= >=
+    System.out.println("GRØNN");            -- HUSK klammeparantes {} og deres plassering
+} else {
+    System.out.println("RØD");
+}
+
+
+
+switch (a) {                                -- String mandag = null;
+		                                    -- String tirsdag = null; osv, alle dager i uken
+case "1":                                   -- System.out.print("");
+    System.out.print("Mandag");             -- String a = input.nextLine();
+    break;
+case "2":
+	System.out.print("Tirsdag");            -- brukeren sin input gjør at programmet bytter mellom casene og..
+	break;                                  -- har en default som vises dersom input er ugyldig
+		
+default:
+	System.out.println("");
+}
+		    
+		                                    
+
+while (true) {                              -- kan være true/false, eller en annen gitt verdi
+    System.out.print();
+    int input = scanner.nextInt();
+
+    if (input == 0) {
+        break;
+    }
+
+    --kode--
+}
+
+if () {
+    System.out.println("");
+} else {
+    System.out.println(");
+}	
+		
+			
+for (int i = 1; i <=10; i++) {
+                                            -- kan sette inn switch case, if-else løkke inni her... 
+}                                           -- pass på klammeparantes
+		
+for (int i = 1; i <= 20; i++) {             -- skriver ut tallrekke 1-20
+    System.out.println(i);
+}
+
+
+                                            -- skriver ut tallrekke 20-1
+int i = 20; // gir integeren i en verdi, 20 
+
+        
+while (i >= 1) { // så lenge i har verdi større eller lik 1 skriver den ut verdien
+    System.out.println(i);
+    i--; // for hver gang i skrives ut synker verdien
+}
+    
+
+*/
+
